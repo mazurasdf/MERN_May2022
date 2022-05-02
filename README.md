@@ -1,4 +1,4 @@
-# Welcome to MERN March 2022!
+# Welcome to MERN May 2022!
 with your gracious host: @mazurasdf
 [link to youtube playlist here](https://www.youtube.com/playlist?list=PLBZwc4aWOVuLia2rMK9mysfYuVfw7DHzn)
 
