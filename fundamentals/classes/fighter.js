@@ -1,6 +1,7 @@
 class Fighter{
     static count = 0;
     constructor(name, weight, strength, speed, color, playerNum = 1){
+        console.log("fighter constructor here")
         //name, weight(1-10), percentage, strength(1-10), speed(1-10), color, playerNum
         this.name = name;
         this.percentage = 0;
@@ -27,8 +28,10 @@ class Fighter{
     }
 }
 
-const sora = new Fighter("Sora",3,6,5,"red");
-const yoshi = new Fighter("Yoshi",3,5,6,"green");
+// const sora = new Fighter("Sora",3,6,5,"red");
+// const yoshi = new Fighter("Yoshi",3,5,6,"green");
 
-yoshi.special(sora);
-console.log(sora);
+// yoshi.special(sora);
+// console.log(sora);
+
+module.exports = Fighter;
