@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.letterBox{
+  height: 55px;
+  width: 55px;
+  color: white;
+  font-size: 25px;
+  background-color: rgb(70, 70, 70);
+}
+
+.letterContainer{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 5px 0px;
+}
+
+.yellow{
+  background-color: goldenrod;
+}
+
+.green{
+  background-color: green;
+}
