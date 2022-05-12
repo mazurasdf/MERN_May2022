@@ -1,0 +1,20 @@
+import React, {useContext} from "react";
+import ColorContext from "../contexts/ColorContext";
+
+const Bio = (props) => {
+    const {themeColor} = useContext(ColorContext);
+
+    const style = {
+        backgroundColor: themeColor + "80",
+        padding: "15px 30px",
+        textAlign: "left"
+    }
+
+    return(
+        <div style={style}>
+            <h5>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem autem, amet provident molestiae earum impedit, quasi, repudiandae alias culpa maxime deserunt veritatis fuga laudantium accusantium. Sunt iure placeat vitae, asperiores nemo, animi mollitia unde magni dolores sapiente quisquam voluptate, doloribus at molestiae molestias? Sequi incidunt dolores repudiandae autem nesciunt consectetur, velit id consequatur blanditiis aliquam. At, quasi pariatur. Velit quaerat veritatis deleniti repellendus culpa ea tempora vel enim, porro, quibusdam inventore dignissimos perspiciatis est quam eveniet sit laborum nam perferendis. Repellat nostrum inventore debitis cupiditate omnis commodi optio blanditiis voluptate cumque dicta voluptatem quam in et necessitatibus eius maxime distinctio nulla, eum ullam doloremque non vitae beatae. Ducimus et ipsa suscipit dolorem vitae impedit amet sapiente, libero est iure laborum sunt doloremque nisi quidem repellendus tempore fugiat molestias animi id, illo eos ipsam? Vitae eum quaerat consequuntur cupiditate nemo quibusdam unde, perspiciatis veniam! Aliquam odit autem veniam a quasi aperiam optio libero alias, asperiores repudiandae pariatur earum est saepe odio enim cum dolorem ullam minus molestiae tenetur sunt, excepturi error modi exercitationem? Labore, praesentium. Sit sed fuga repellat itaque officia! Repellendus, cupiditate quibusdam placeat alias architecto veritatis excepturi in aspernatur atque facilis? Debitis aperiam qui quis ea accusamus nulla officia, ducimus exercitationem quam rerum, earum ipsam corrupti nemo, dicta saepe tempora harum quisquam quasi repellendus nesciunt dolor? Quaerat perspiciatis mollitia numquam doloremque qui quasi excepturi nulla eligendi nemo natus enim, quod voluptatum expedita voluptatem molestias autem sequi cumque nisi saepe quia magni et temporibus! Soluta praesentium odit odio beatae itaque tempora laudantium accusamus autem culpa ipsa commodi sapiente in dolorum pariatur nostrum natus, blanditiis deserunt. Molestias nulla molestiae, nostrum qui nam, excepturi veniam officiis natus aut enim temporibus quia eius optio harum. Vero explicabo quas odio totam quaerat maxime, corrupti voluptatibus recusandae non veniam dolores quo laborum impedit repellendus quisquam? Dolorum fuga labore eum perferendis obcaecati libero ab dolores eos cupiditate nesciunt. Quod, harum excepturi temporibus expedita ea eveniet dolores ad est magni iusto similique maiores id, eligendi eaque, asperiores accusantium reiciendis. Quos necessitatibus molestiae et itaque corporis quasi, sed rerum hic fuga! Eveniet laborum officiis architecto laudantium sed cumque a dolorem? Aut, rem fuga temporibus nam sint beatae quos quaerat impedit veniam ab nihil velit dolore numquam voluptates suscipit accusantium! Eveniet veritatis, unde similique accusamus accusantium fuga eum, doloremque, illo quidem facere aliquid quasi voluptas fugit. Ipsam magnam accusamus rem veritatis, eius illum facere eligendi? Dolore excepturi placeat alias veniam libero qui, ratione dicta eaque. Iste illo at beatae dolore hic enim quo consequuntur debitis corrupti a! Assumenda rem eveniet totam natus nesciunt quaerat facilis alias qui, porro at! Modi excepturi consequuntur voluptate quae nulla cum, maiores explicabo totam illum quos architecto nihil est quod accusamus animi nemo dolor delectus iure distinctio fugit nostrum quia repudiandae aliquid. Placeat amet itaque exercitationem excepturi fuga quidem qui sit ipsum eveniet officia, odio veritatis velit eligendi quod reiciendis earum eum esse corrupti quas? Voluptates facilis veniam cupiditate mollitia molestias tenetur ipsum culpa iure ratione. Nobis nihil id est exercitationem quis saepe dolore!</h5>
+        </div>
+    )
+}
+
+export default Bio;
