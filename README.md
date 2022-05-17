@@ -51,7 +51,9 @@ with your gracious host: @mazurasdf
     * don't forget to add the files and code in the server folder!
 * create the frontend by running `npx create-react-app client` from the main project folder
 * `cd client/`
-* run `npm install axios react-router-dom`
+* run `npm install axios react-router-dom@5`
     * this adds the dependencies we need for the front end
+* downgrade to react 17 by following [this link to the learn platform](https://login.codingdojo.com/m/130/6236/91047)
+    * we **must** do this in order for react-router-dom v5 to work. skipping this step will cause issues with routing. if you opt to use react-router-dom v6, then downgrading is not necessary
 
 :broccoli: :broccoli: :broccoli:
