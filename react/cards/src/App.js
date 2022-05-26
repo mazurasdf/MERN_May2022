@@ -4,7 +4,9 @@ import PokeCard from './components/PokeCard';
 import {useState} from "react";
 
 function App() {
-  console.log("maybe I should get rid of this line if it conflicts?");
+  const testFunc = () => {
+    console.log("hey this is first added in a branch!");
+  }
 
   const [pokeList, setPokeList] = useState([])
   const [input, setInput] = useState("");
