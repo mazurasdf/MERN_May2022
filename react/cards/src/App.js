@@ -4,6 +4,10 @@ import PokeCard from './components/PokeCard';
 import {useState} from "react";
 
 function App() {
+  const testFunc = () => {
+    console.log("hey this is first added in a branch!");
+  }
+
   const [pokeList, setPokeList] = useState([])
   const [input, setInput] = useState("");
 
