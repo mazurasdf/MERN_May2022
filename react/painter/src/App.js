@@ -5,6 +5,8 @@ import Pixel from "./components/Pixel";
 import Row from './components/Row';
 
 function App() {
+  console.log("there should be no conflicts if I add this here");
+
   return (
     <div className="App">
       {/* <Box message="hey it's me, the component!" secondMessage="more text!!"/>
